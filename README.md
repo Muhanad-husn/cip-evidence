@@ -1,9 +1,16 @@
-# CIP Method Evidence
+# CIP evidence site
 
-Every analytic method in the CIP catalog, run against the live corpus (the Period Brief window, 17 May to 30 June 2026), with the visualisation each one produced, plus two end-to-end analyst conversations and the six calibrated capabilities run through the shipped dashboard on 25 August 2026, each photographed with its limits in the frame.
+Static pages for CIP, the Conflict Intelligence Platform: hand-written HTML and one stylesheet, no script. Served by GitHub Pages from `main`; the address is set by `CNAME`.
 
-The evidence site is CIP's: it serves investors and partners/integrators. It carries one Conflict Gauge proof section (what CIP produces, shown as the Conflict Gauge: Iran edition) that links to the Conflict Gauge site, which is a separate product built on CIP's output. The rebuild on the full-war corpus (28 Feb to 13 Oct 2026) has no fixed push date.
+| Path | Page |
+|---|---|
+| `index.html` | Platform |
+| `methods.html` | Capabilities and methods |
+| `assurance.html` | Assurance |
+| `deployment.html` | Deployment and integration |
+| `company.html` | For investors |
+| `period-brief.html` | The Period Brief, as published in September 2026 (17 May to 30 June 2026), now static |
 
-View: https://muhanad-husn.github.io/cip-evidence/
+`figures/full-record/` holds every figure the pages show, each with its CSV and provenance file, listed in `figures/full-record/figures.json`. They are produced in the CIP repository by `reports/evidence-site/build_figures.py` (issue #1423) and copied here unchanged. The earlier pages, figures and captures are in git history.
 
 Contact: founder@mergeseat.com - mergeseat.com
