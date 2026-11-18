@@ -14,7 +14,7 @@
  "definition": "One row per appendix entry of the latest edition: the method, whether it is a calibrated capability, its status and, when not supported, the reason. summary.csv holds the counts.",
  "notes": [],
  "data_as_of": "2026-11-15T09:20:06.702546+00:00",
- "configuration_version": 13,
+ "configuration_version": 14,
  "csv": {
   "file": "data.csv",
   "columns": [

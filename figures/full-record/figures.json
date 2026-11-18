@@ -4,7 +4,7 @@
   "to": "2026-11-14"
  },
  "data_as_of": "2026-11-15T09:20:06.702546+00:00",
- "configuration_version": 13,
+ "configuration_version": 14,
  "figures": [
   {
    "slug": "corpus_band",
@@ -60,11 +60,12 @@
   {
    "slug": "source_reliability",
    "title": "Source reliability audit over the full record",
-   "status": "refused",
+   "status": "ok",
    "files": {
+    "data": "source_reliability/data.csv",
+    "figure": "source_reliability/figure.png",
     "provenance": "source_reliability/provenance.json"
-   },
-   "reason": "Held: the source reliability audit is calibrated on 37 sources and the record now covers 46, so it runs again only after a re-fit."
+   }
   },
   {
    "slug": "standing_links",

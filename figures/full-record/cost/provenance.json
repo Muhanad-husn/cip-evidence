@@ -13,7 +13,7 @@
   "Model names are not carried in this figure's files."
  ],
  "data_as_of": "2026-11-15T09:20:06.702546+00:00",
- "configuration_version": 13,
+ "configuration_version": 14,
  "csv": {
   "file": "data.csv",
   "columns": [
