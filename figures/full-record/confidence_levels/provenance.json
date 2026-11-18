@@ -1,0 +1,33 @@
+{
+ "slug": "confidence_levels",
+ "title": "Confidence levels across all editions",
+ "status": "ok",
+ "window": null,
+ "record": {
+  "from": "2026-02-28",
+  "to": "2026-11-14"
+ },
+ "method": "The confidence level each edition gives every finding",
+ "definition": "One row per finding: its edition and its confidence level. shares.csv holds the count and share at each level.",
+ "notes": [],
+ "data_as_of": "2026-11-15T09:20:06.702546+00:00",
+ "configuration_version": 13,
+ "csv": {
+  "file": "data.csv",
+  "columns": [
+   "edition",
+   "kind",
+   "archive",
+   "finding_id",
+   "finding_kind",
+   "confidence"
+  ],
+  "rows": 420
+ },
+ "files": {
+  "data": "confidence_levels/data.csv",
+  "shares": "confidence_levels/shares.csv",
+  "figure": "confidence_levels/figure.png"
+ },
+ "model_cost_usd": 0.0
+}

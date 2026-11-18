@@ -1,0 +1,22 @@
+scope,step,item,usd
+full_record_processing,full-record processing run,curation,6.7208
+full_record_processing,full-record processing run,"extraction, batch",4.4585
+full_record_processing,full-record processing run,curation,30.9636
+full_record_processing,full-record processing run,"curation, batch",41.7145
+full_record_processing,full-record processing run,extraction,0.8561
+full_record_processing,full-record processing run,"extraction, batch",24.6239
+full_record_processing,translation step,data queries,0.0207
+full_record_processing,translation step,model calls,2.7678
+full_record_processing,"translation step, second pass",data queries,0.0131
+full_record_processing,news-index query step,data queries,0.2035
+weekly_run,acquisition and processing,data queries,0.0077
+weekly_run,acquisition and processing,"model calls, batch",0.968
+weekly_run,acquisition and processing,model calls,2.2398
+weekly_run,edition writing,model calls,1.588
+weekly_run,daily feed poll 2026-11-08,model calls,0.0186
+weekly_run,daily feed poll 2026-11-09,model calls,0.02
+weekly_run,daily feed poll 2026-11-10,model calls,0.0196
+weekly_run,daily feed poll 2026-11-11,model calls,0.0212
+weekly_run,daily feed poll 2026-11-12,model calls,0.0202
+weekly_run,daily feed poll 2026-11-13,model calls,0.0192
+weekly_run,daily feed poll 2026-11-14,model calls,0.0191

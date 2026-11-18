@@ -1,0 +1,125 @@
+{
+ "record": {
+  "from": "2026-02-28",
+  "to": "2026-11-14"
+ },
+ "data_as_of": "2026-11-15T09:20:06.702546+00:00",
+ "configuration_version": 13,
+ "figures": [
+  {
+   "slug": "corpus_band",
+   "title": "Corpus band",
+   "status": "ok",
+   "files": {
+    "data": "corpus_band/data.csv",
+    "figure": "corpus_band/figure.png",
+    "provenance": "corpus_band/provenance.json"
+   }
+  },
+  {
+   "slug": "escalation_days",
+   "title": "Escalation days over the full record",
+   "status": "ok",
+   "files": {
+    "data": "escalation_days/data.csv",
+    "calls": "escalation_days/calls.csv",
+    "figure": "escalation_days/figure.png",
+    "provenance": "escalation_days/provenance.json"
+   }
+  },
+  {
+   "slug": "hotspots",
+   "title": "Hotspots over the full record",
+   "status": "ok",
+   "files": {
+    "data": "hotspots/data.csv",
+    "figure": "hotspots/figure.png",
+    "provenance": "hotspots/provenance.json"
+   }
+  },
+  {
+   "slug": "narrative_shifts",
+   "title": "Narrative shifts over the full record",
+   "status": "ok",
+   "files": {
+    "data": "narrative_shifts/data.csv",
+    "figure": "narrative_shifts/figure.png",
+    "provenance": "narrative_shifts/provenance.json"
+   }
+  },
+  {
+   "slug": "actor_clusters",
+   "title": "Actor network clustering over the full record",
+   "status": "ok",
+   "files": {
+    "data": "actor_clusters/data.csv",
+    "figure": "actor_clusters/figure.png",
+    "provenance": "actor_clusters/provenance.json"
+   }
+  },
+  {
+   "slug": "source_reliability",
+   "title": "Source reliability audit over the full record",
+   "status": "refused",
+   "files": {
+    "provenance": "source_reliability/provenance.json"
+   },
+   "reason": "Held: the source reliability audit is calibrated on 37 sources and the record now covers 46, so it runs again only after a re-fit."
+  },
+  {
+   "slug": "standing_links",
+   "title": "Standing links between series",
+   "status": "ok",
+   "files": {
+    "data": "standing_links/data.csv",
+    "tests": "standing_links/tests.csv",
+    "figure": "standing_links/figure.png",
+    "provenance": "standing_links/provenance.json"
+   }
+  },
+  {
+   "slug": "confidence_levels",
+   "title": "Confidence levels across all editions",
+   "status": "ok",
+   "files": {
+    "data": "confidence_levels/data.csv",
+    "shares": "confidence_levels/shares.csv",
+    "figure": "confidence_levels/figure.png",
+    "provenance": "confidence_levels/provenance.json"
+   }
+  },
+  {
+   "slug": "editions_shipped",
+   "title": "Editions built by the weekly chain",
+   "status": "ok",
+   "files": {
+    "data": "editions_shipped/data.csv",
+    "summary": "editions_shipped/summary.csv",
+    "figure": "editions_shipped/figure.png",
+    "provenance": "editions_shipped/provenance.json"
+   }
+  },
+  {
+   "slug": "method_coverage",
+   "title": "Method coverage, 2026-W46",
+   "status": "ok",
+   "files": {
+    "data": "method_coverage/data.csv",
+    "summary": "method_coverage/summary.csv",
+    "figure": "method_coverage/figure.png",
+    "provenance": "method_coverage/provenance.json"
+   }
+  },
+  {
+   "slug": "cost",
+   "title": "Cost: full-record processing and one weekly run",
+   "status": "ok",
+   "files": {
+    "data": "cost/data.csv",
+    "summary": "cost/summary.csv",
+    "figure": "cost/figure.png",
+    "provenance": "cost/provenance.json"
+   }
+  }
+ ]
+}

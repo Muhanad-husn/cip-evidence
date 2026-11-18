@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cip.mergeseat.com/sitemap.xml

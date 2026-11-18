@@ -1,0 +1,41 @@
+{
+ "slug": "hotspots",
+ "title": "Hotspots over the full record",
+ "status": "ok",
+ "window": {
+  "from": "2026-02-28",
+  "to": "2026-11-14"
+ },
+ "record": {
+  "from": "2026-02-28",
+  "to": "2026-11-14"
+ },
+ "method": "geospatial_hotspot_analysis (calibrated capability), configuration version 13",
+ "definition": "One row per hotspot: its label, events, places, peak intensity, centre, days active, stability and its persistence and spike classification.",
+ "notes": [
+  "Hotspots: 133 hotspots; persistent and spike classes are not valid on this input (they need 30 days of history before the period). Largest: Tehran 2,674 events; Gaza City 2,488 events; Jerusalem 2,315 events; Tel Aviv 1,910 events; ‘Aramsha 1,091 events."
+ ],
+ "data_as_of": "2026-11-15T09:20:06.702546+00:00",
+ "configuration_version": 13,
+ "csv": {
+  "file": "data.csv",
+  "columns": [
+   "label",
+   "event_count",
+   "place_count",
+   "peak_intensity",
+   "centroid",
+   "days_active",
+   "temporal_stability",
+   "late_entrant_events",
+   "late_entrant_share",
+   "classification"
+  ],
+  "rows": 133
+ },
+ "files": {
+  "data": "hotspots/data.csv",
+  "figure": "hotspots/figure.png"
+ },
+ "model_cost_usd": 0.0
+}

@@ -1,0 +1,38 @@
+{
+ "slug": "actor_clusters",
+ "title": "Actor network clustering over the full record",
+ "status": "ok",
+ "window": {
+  "from": "2026-02-28",
+  "to": "2026-11-14"
+ },
+ "record": {
+  "from": "2026-02-28",
+  "to": "2026-11-14"
+ },
+ "method": "actor_network_clustering (calibrated capability), configuration version 13",
+ "definition": "One row per actor cluster: its anchor actor, dominant country, size and leading members.",
+ "notes": [
+  "Actor network clusters: 159 clusters and 361 bridge actors on the relationships recorded by the period's end. Largest: Iran network (IRN) (1,033 actors); Israel network (ISR) (705 actors); Israeli military network (ISR) (527 actors); United States network (USA) (456 actors); Saudi Arabia network (YEM) (445 actors); United States military network (USA) (431 actors)."
+ ],
+ "data_as_of": "2026-11-15T09:20:06.702546+00:00",
+ "configuration_version": 13,
+ "csv": {
+  "file": "data.csv",
+  "columns": [
+   "cluster_id",
+   "anchor_node_id",
+   "anchor",
+   "dominant_country",
+   "label",
+   "size",
+   "top_members"
+  ],
+  "rows": 159
+ },
+ "files": {
+  "data": "actor_clusters/data.csv",
+  "figure": "actor_clusters/figure.png"
+ },
+ "model_cost_usd": 0.0
+}

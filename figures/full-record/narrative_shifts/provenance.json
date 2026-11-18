@@ -1,0 +1,54 @@
+{
+ "slug": "narrative_shifts",
+ "title": "Narrative shifts over the full record",
+ "status": "ok",
+ "window": {
+  "from": "2026-02-28",
+  "to": "2026-11-14"
+ },
+ "record": {
+  "from": "2026-02-28",
+  "to": "2026-11-14"
+ },
+ "method": "narrative_shift_detection (calibrated capability), configuration version 13",
+ "definition": "One row per narrative cluster: its topic, size, coherence, source diversity, first and last dates, and the shift detected with its magnitude and confidence.",
+ "notes": [
+  "Narrative shifts: 984 shifts observable inside the input, of 1,006 narratives returned."
+ ],
+ "data_as_of": "2026-11-15T09:20:06.702546+00:00",
+ "configuration_version": 13,
+ "csv": {
+  "file": "data.csv",
+  "columns": [
+   "cluster_id",
+   "node_id",
+   "topic_label",
+   "cluster_size",
+   "coherence_score",
+   "source_diversity",
+   "source_count",
+   "first_detected_date",
+   "last_detected_date",
+   "shift_detected_date",
+   "shift_from_window",
+   "shift_to_window",
+   "shift_magnitude",
+   "shift_confidence",
+   "convergence_score",
+   "converges_with",
+   "longitudinal_trend",
+   "active_status",
+   "peak_window",
+   "edge_censored",
+   "arc_observable",
+   "shift_direction",
+   "counter_narrative_ids"
+  ],
+  "rows": 1006
+ },
+ "files": {
+  "data": "narrative_shifts/data.csv",
+  "figure": "narrative_shifts/figure.png"
+ },
+ "model_cost_usd": 0.0
+}

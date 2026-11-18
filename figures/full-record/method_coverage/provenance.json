@@ -1,0 +1,37 @@
+{
+ "slug": "method_coverage",
+ "title": "Method coverage, 2026-W46",
+ "status": "ok",
+ "window": {
+  "from": "2026-11-08",
+  "to": "2026-11-14"
+ },
+ "record": {
+  "from": "2026-02-28",
+  "to": "2026-11-14"
+ },
+ "method": "What the latest edition ran, and what it could not run with the reason",
+ "definition": "One row per appendix entry of the latest edition: the method, whether it is a calibrated capability, its status and, when not supported, the reason. summary.csv holds the counts.",
+ "notes": [],
+ "data_as_of": "2026-11-15T09:20:06.702546+00:00",
+ "configuration_version": 13,
+ "csv": {
+  "file": "data.csv",
+  "columns": [
+   "entry",
+   "method_id",
+   "method_version",
+   "calibrated_capability",
+   "group",
+   "status",
+   "reason"
+  ],
+  "rows": 141
+ },
+ "files": {
+  "data": "method_coverage/data.csv",
+  "summary": "method_coverage/summary.csv",
+  "figure": "method_coverage/figure.png"
+ },
+ "model_cost_usd": 0.0
+}
