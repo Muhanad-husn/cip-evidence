@@ -4,15 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>For investors: CIP</title>
-<meta name="description" content="CIP for investors: economics, build record, founder and next steps.">
-<link rel="canonical" href="https://cip.mergeseat.com/company.html">
+<meta name="description" content="CIP for investors: measured cost of a full war and of one week, the build record, the founder and the next steps.">
+<link rel="canonical" href="https://muhanad-husn.github.io/cip-evidence/company.html">
 <meta name="theme-color" content="#0a0a13">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="CIP">
+<meta property="og:site_name" content="CIP by MergeSeat">
 <meta property="og:title" content="For investors: CIP">
-<meta property="og:description" content="CIP for investors: economics, build record, founder and next steps.">
-<meta property="og:url" content="https://cip.mergeseat.com/company.html">
-<meta property="og:image" content="https://cip.mergeseat.com/assets/og.png">
+<meta property="og:description" content="CIP for investors: measured cost of a full war and of one week, the build record, the founder and the next steps.">
+<meta property="og:url" content="https://muhanad-husn.github.io/cip-evidence/company.html">
+<meta property="og:image" content="https://muhanad-husn.github.io/cip-evidence/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/cip-favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/site.css">
@@ -20,65 +22,135 @@
 <body>
 <header class="site-head">
   <div class="wrap">
-    <a class="brand" href="index.html"><img src="assets/cip-mark-dark.svg" alt="" width="28" height="28">CIP</a>
+    <div class="lockup">
+      <a href="https://mergeseat.com" title="MergeSeat"><img src="assets/mergeseat-mark-128.png" alt="" width="30" height="30">MergeSeat</a>
+      <span class="sep">/</span>
+      <a href="index.html" title="CIP, the Conflict Intelligence Platform"><img src="assets/cip-mark-dark.svg" alt="" width="30" height="30">CIP</a>
+    </div>
     <nav class="nav" aria-label="Site">
       <a href="index.html">Platform</a>
       <a href="methods.html">Methods</a>
+      <a href="methodology.html">Methodology</a>
       <a href="assurance.html">Assurance</a>
       <a href="deployment.html">Deployment</a>
       <a href="company.html" aria-current="page">For investors</a>
       <a href="period-brief.html">The Period Brief</a>
+      <a class="btn-contact" href="mailto:founder@mergeseat.com?subject=CIP">Contact</a>
     </nav>
   </div>
 </header>
 
 <main>
-  <section class="hero">
+  <section class="hero sub">
     <div class="wrap">
-      <p class="eyebrow">For investors</p>
-      <h1>CIP for investors</h1>
-      <p class="pending">introduction</p>
+      <p class="pill">For investors</p>
+      <h1>A platform that already ships.</h1>
+      <p class="lede">CIP has processed a full war, 28 February to 14 November 2026, into one measured record, and it turns each new week into a published edition without an operator. The figures on this page come from the platform's own spend ledgers and build record.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="mailto:founder@mergeseat.com?subject=CIP%20investor%20conversation">Start a conversation</a>
+        <a class="btn btn-ghost" href="#founder">The founder</a>
+      </div>
     </div>
   </section>
-
-  <section id="economics">
+  <section id="economics" class="section">
     <div class="wrap">
-      <h2>Economics</h2>
-      <p class="pending">economics</p>
+      <p class="eyebrow">Economics</p>
+      <h2>A war for USD 112. A week for USD 4.94.</h2>
+      <div class="grid">
+        <a class="card" href="figures/full-record/cost/data.csv"><p class="num">USD 112.34</p><h3>The full record</h3><p>Model and data-query spend to process 260 days of war into the record now in production, translation included.</p><p class="more">Every ledger line (CSV)</p></a>
+        <a class="card" href="figures/full-record/cost/summary.csv"><p class="num">USD 4.94</p><h3>One week, end to end</h3><p>Collection, processing, seven daily feed polls and the writing of the edition for 8 to 14 November 2026.</p><p class="more">Summary (CSV)</p></a>
+        <a class="card" href="figures/full-record/cost/summary.csv"><p class="num">32 minutes</p><h3>One weekly cycle</h3><p>From the start of the weekly chain to the finished edition, with 0.474 hours of graph hosting beside the ledger spend.</p><p class="more">Summary (CSV)</p></a>
+      </div>
+      <p style="margin-top:28px">The figures cover model and data-query spend as recorded in the run ledgers. Most of the work is deterministic code, and a language model is used only where reading is required, which is why the marginal cost of a week stays in single dollars.</p>
       <figure>
-        <img src="figures/full-record/cost/figure.png" alt="Model and query spend in USD: full-record processing and one weekly run." loading="lazy">
-        <figcaption>Full-record processing USD 112.34; one weekly run (8 to 14 November 2026) USD 4.94 of model and query spend, plus 0.474 graph-host hours. <a href="figures/full-record/cost/summary.csv">Summary (CSV)</a> · <a href="figures/full-record/cost/data.csv">Every ledger line (CSV)</a></figcaption>
+        <a href="figures/full-record/cost/figure.png" title="Open the figure at full size"><img src="figures/full-record/cost/figure.png" alt="Cost of full-record processing and of one weekly run." loading="lazy"></a>
+        <figcaption>Full-record processing and one weekly run, from the spend ledgers.</figcaption>
+        <ul class="files"><li><a href="figures/full-record/cost/summary.csv">Summary (CSV)</a></li><li><a href="figures/full-record/cost/data.csv">Every ledger line (CSV)</a></li><li><a href="figures/full-record/cost/provenance.json">How it was produced</a></li></ul>
       </figure>
     </div>
   </section>
-
-  <section id="record">
+  <section id="route" class="section alt">
     <div class="wrap">
-      <h2>Build record</h2>
-      <p class="pending">build record</p>
+      <p class="eyebrow">Commercial route</p>
+      <h2>Two products on one platform.</h2>
+      <div class="grid two">
+        <a class="card" href="deployment.html"><p class="tag">The platform</p><h3>CIP</h3><p>Licensed to organisations that run it for their own analysts or clients, installed where they decide, or provided as a hosted tenant. Licences and tenants are quoted per deployment. The entry step is a paid scoping on one live question.</p><p class="more">Deployment and integration</p></a>
+        <a class="card" href="https://conflictgauge.com"><p class="tag">The publication</p><h3>Conflict Gauge: Iran</h3><p>Weekly and monthly data editions on the Iran war, produced by CIP and sold by subscription from its own site since 12 November 2026. It is the revenue line and the standing proof of what the platform produces.</p><p class="more">conflictgauge.com</p></a>
+      </div>
+    </div>
+  </section>
+  <section id="build" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Build record</p>
+      <h2>What exists today.</h2>
+      <dl class="band">
+        <div><dt>release, 19 October 2026</dt><dd>0.2.0</dd></div>
+        <div><dt>automated tests</dt><dd>12,000+</dd></div>
+        <div><dt>editions built</dt><dd>42</dd></div>
+        <div><dt>events in the record</dt><dd>95,333</dd></div>
+      </dl>
+      <ul class="plain" style="margin-top:28px">
+        <li>Six calibrated capabilities and a library of 28 methods, <a href="methods.html">each shown with its output</a>.</li>
+        <li>A <a href="methodology.html">published methodology</a>, with its known limitations stated.</li>
+        <li>A weekly chain that runs unattended and reports its own failures.</li>
+        <li>A spend ledger that records every model call against a cap set before the run.</li>
+      </ul>
+      <p>The architecture, the data schema and the specification corpus are available under a non-disclosure agreement, together with the data room.</p>
+    </div>
+  </section>
+  <section id="founder" class="section alt">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Founder</p>
+        <h2>Muhanad AbulHusn</h2>
+      </div>
+      <div>
+        <p class="big">An engineer who delivered under constraint, and an analyst of conflict and armed groups. CIP is where the two meet.</p>
+        <p>Muhanad AbulHusn is an AI implementation specialist with ten years in social data science on conflict and armed groups. He is the founder of MergeSeat and the developer of CIP. His conflict research includes work with Bellingcat.</p>
+        <p>He trained in engineering and business administration and spent five years in construction in the United Arab Emirates, rising from quality inspector to construction manager.</p>
+        <p>Before CIP he built Neo4All and G-Lab, which turn document collections into governed knowledge graphs for investigative work. CIP is the fourth system of its kind he has taken from schema to running code.</p>
+        <div class="actions">
+          <a class="btn btn-ghost" href="https://mergeseat.com">MergeSeat</a>
+          <a class="btn btn-ghost" href="mailto:founder@mergeseat.com">founder@mergeseat.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="next" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Next steps</p>
+      <h2>What the next stage builds.</h2>
+      <ul class="plain">
+        <li>The first licences, entered through paid scopings with intelligence providers and risk consultancies.</li>
+        <li>A hosted tenant with a direct interface, built when the first client commits to it.</li>
+        <li>The first two hires, one engineer and one regional analyst, when the first licence starts.</li>
+        <li>Further theatres, each added as an area of interest on the same platform.</li>
+      </ul>
+      <div class="callout">
+        <p class="tag">Under NDA</p>
+        <p>The data room, the architecture and a live demonstration on a question of the investor's choice are available on request.</p>
+        <p><a href="mailto:founder@mergeseat.com?subject=CIP%20investor%20conversation">founder@mergeseat.com</a></p>
+      </div>
     </div>
   </section>
 
-  <section id="founder">
-    <div class="wrap">
-      <h2>Founder</h2>
-      <p class="pending">founder block</p>
-    </div>
-  </section>
-
-  <section id="next">
-    <div class="wrap">
-      <h2>Next steps</h2>
-      <p class="pending">next steps</p>
-      <p><a class="btn" href="mailto:founder@mergeseat.com?subject=CIP">Contact</a></p>
-    </div>
-  </section>
 </main>
 
 <footer class="site-foot">
   <div class="wrap">
-    <span>CIP is built by <a href="https://mergeseat.com">MergeSeat</a>.</span>
-    <span><a href="mailto:founder@mergeseat.com">founder@mergeseat.com</a> · <a href="figures/full-record/figures.json">Figure manifest</a></span>
+    <p class="cta">See CIP run on a live question.</p>
+    <a class="mail" href="mailto:founder@mergeseat.com?subject=CIP%20demonstration">founder@mergeseat.com</a>
+    <div class="foot-row">
+      <a class="by" href="https://mergeseat.com"><img src="assets/mergeseat-mark-128.png" alt="" width="22" height="22">CIP is built by MergeSeat · AI systems engineering · Netherlands · KvK 42166850</a>
+      <nav aria-label="Footer">
+        <a href="methods.html">Methods</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="assurance.html">Assurance</a>
+        <a href="figures/full-record/figures.json">Figure manifest</a>
+        <a href="https://conflictgauge.com">Conflict Gauge</a>
+        <a href="https://mergeseat.com">mergeseat.com</a>
+      </nav>
+    </div>
   </div>
 </footer>
 </body>
