@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology: CIP</title>
+<meta name="description" content="The published CIP methodology: what the records mean, where they come from, how they are processed and checked, and where they fall short.">
+<link rel="canonical" href="https://muhanad-husn.github.io/cip-evidence/methodology.html">
+<meta name="theme-color" content="#0a0a13">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CIP by MergeSeat">
+<meta property="og:title" content="Methodology: CIP">
+<meta property="og:description" content="The published CIP methodology: what the records mean, where they come from, how they are processed and checked, and where they fall short.">
+<meta property="og:url" content="https://muhanad-husn.github.io/cip-evidence/methodology.html">
+<meta property="og:image" content="https://muhanad-husn.github.io/cip-evidence/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/cip-favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <div class="lockup">
+      <a href="https://mergeseat.com" title="MergeSeat"><img src="assets/mergeseat-mark-128.png" alt="" width="30" height="30">MergeSeat</a>
+      <span class="sep">/</span>
+      <a href="index.html" title="CIP, the Conflict Intelligence Platform"><img src="assets/cip-mark-dark.svg" alt="" width="30" height="30">CIP</a>
+    </div>
+    <nav class="nav" aria-label="Site">
+      <a href="index.html">Platform</a>
+      <a href="methods.html">Methods</a>
+      <a href="methodology.html" aria-current="page">Methodology</a>
+      <a href="assurance.html">Assurance</a>
+      <a href="deployment.html">Deployment</a>
+      <a href="company.html">For investors</a>
+      <a href="period-brief.html">The Period Brief</a>
+      <a class="btn-contact" href="mailto:founder@mergeseat.com?subject=CIP">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero sub">
+    <div class="wrap">
+      <p class="pill">Methodology</p>
+      <h1>How the record is built.</h1>
+      <p class="lede">The published CIP methodology. It explains what the records mean, where they come from, what happens to them between collection and analysis, how their quality is checked, and where they fall short.</p>
+      <div class="actions">
+        <a class="btn btn-ghost" href="methods.html">Capabilities and methods</a>
+        <a class="btn btn-ghost" href="assurance.html">Assurance</a>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap prose">
+      <ul class="toc"><li><a href="#1-codebook">1. Codebook</a></li><li><a href="#2-sourcing">2. Sourcing</a></li><li><a href="#3-processing">3. Processing</a></li><li><a href="#4-quality-and-review">4. Quality and review</a></li><li><a href="#5-known-limitations">5. Known limitations</a></li><li><a href="#6-versioning-and-corrections">6. Versioning and corrections</a></li><li><a href="#7-faq">7. FAQ</a></li></ul>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Version</strong></td>
+<td>1.0</td>
+</tr>
+<tr>
+<td><strong>Published on</strong></td>
+<td>2026-11-03</td>
+</tr>
+<tr>
+<td><strong>Last updated</strong></td>
+<td>2026-10-19</td>
+</tr>
+<tr>
+<td><strong>Status</strong></td>
+<td>signed off</td>
+</tr>
+</tbody>
+</table></div>
+<p>CIP, the Conflict Intelligence Platform, provides conflict event, actor, claim and narrative data, with the provenance of each record stated. This document explains what the records mean, where they come from, what happens to them between collection and analysis, how their quality is checked, and where they fall short. It describes what each stage guarantees rather than how each stage works internally. Read the codebook first if you want to interpret a record, the sourcing and limitations sections if you want to judge bias and coverage, and the versioning section if you need to know how corrections are handled. The last section answers common questions.</p>
+<hr />
+<h2 id="1-codebook">1. Codebook</h2>
+<p>Published: 2026-11-03 · Last updated: 2026-10-19</p>
+<p>This section defines the objects CIP stores and the labels that travel with them.</p>
+<h3 id="events">Events</h3>
+<p>An event is a reported occurrence with a date and a severity, and a type where the source codes one. Severity comes from fixed rules over the source's own coding, or is a flat baseline where the source gives none. CIP adds who did what to whom, and where. One event is kept per real-world occurrence, listing every source that reported it.</p>
+<h3 id="actors-and-actor-types">Actors and actor types</h3>
+<p>Actors are typed from a fixed list of types. There is no person type. In the review of past identity decisions these rules apply:</p>
+<ul class="plain">
+<li>A state's officials and spokespeople are typed government.</li>
+<li>A commander or spokesperson of an armed group takes the group's type.</li>
+<li>A private individual is a civilian.</li>
+<li>An outlet that only reports is not an actor.</li>
+</ul>
+<h3 id="claims">Claims</h3>
+<p>A claim is an assertion attributed to whoever made it. CIP records what the text says about a claim's status; it does not decide whether the claim is true. Verification status is proposed automatically from what the text says; analyst confirmation is not yet part of the system.</p>
+<h3 id="narratives">Narratives</h3>
+<p>A narrative is a group of claims that recurs, hangs together and is carried by more than one distinct source. Narratives are computed from claims on record. No person or model writes them.</p>
+<h3 id="locations">Locations</h3>
+<p>Each place has a name, an administrative position and, where it can be resolved, coordinates with a stated precision and resolution status. A country-level position is marked coarse.</p>
+<h3 id="sources">Sources</h3>
+<p>Each source has a type, a credibility tier (T1 to T4), a recorded perspective and its language of origin.</p>
+<h3 id="corroboration-fields">Corroboration fields</h3>
+<p>Every sourced event states how many distinct sources reported it, which reported first, and which others corroborate it. The levels in use are uncorroborated, single source and multi source. Two higher levels are defined for later use and are not assigned.</p>
+<h3 id="result-warnings">Result warnings</h3>
+<p>Analysis results carry typed warnings where they apply, such as sparse geography, thin relationships, open calibration, minimum input, truncation by limit and snapshot data. Every result also carries a source mix statement, with a skew warning when one perspective supplies most of it.</p>
+<h3 id="methods-and-capabilities">Methods and capabilities</h3>
+<p>Users run named, versioned, deterministic methods across the temporal, severity, geographic, claim, actor, attribution, profile, semantic, provenance and external-signal families. In addition there are calibrated capabilities for escalation, actor clustering, actor centrality, geospatial hotspot, narrative shift and source reliability.</p>
+<hr />
+<h2 id="2-sourcing">2. Sourcing</h2>
+<p>Published: 2026-11-03 · Last updated: 2026-10-19</p>
+<h3 id="accuracy-over-volume">Accuracy over volume</h3>
+<p>The corpus is chosen for the accuracy it yields per record processed, not for volume. More sources do not by themselves mean more reliable results. A source, or a share of one, is processed only where it measurably adds.</p>
+<h3 id="source-classes-and-labels">Source classes and labels</h3>
+<p>Every source is classed by publisher type, credibility tier, perspective and publishing cadence. Perspective is recorded separately from credibility, so a partisan source is labelled as such, not averaged away. Labels are audited against what each channel actually publishes. Sources carry a credibility tier from T1 to T4.</p>
+<p>CIP describes its sources by class, not by name. A published master list of outlets and channels is not part of this document.</p>
+<h3 id="a-panel-of-outlets-chosen-for-range">A panel of outlets chosen for range</h3>
+<p>News outlets are read from a curated panel chosen for editorial range across perspectives. Each outlet carries a perspective tag, and a diagnostic reports any perspective with no coverage in a batch.</p>
+<h3 id="what-each-source-adds-is-measured">What each source adds is measured</h3>
+<p>What each source adds is measured, not judged: the share of its reports no other source carries, the share it corroborates, the perspective it supplies, and the depth of its text.</p>
+<h3 id="selection-by-a-written-rule">Selection by a written rule</h3>
+<p>A source is kept, sampled or dropped by a written rule derived from that measurement. The rule is re-derived whenever the source set changes, so the selection is not a fixed list. A guard keeps the selected corpus's recall of the independent reference close to the full set's. The per-source outcomes are not published.</p>
+<h3 id="balance-across-perspectives">Balance across perspectives</h3>
+<p>Source shares are set so that, in a typical week, no one perspective supplies more than a measured share of the claims, because the narrative layer distorts above that share. The share is applied when the selection is set, not checked week by week. Where the event layer alone exceeds that share, the gap is reported, not cut.</p>
+<h3 id="known-biases-and-the-source-mix-statement">Known biases and the source-mix statement</h3>
+<p>The corpus is not a balanced sample of all reporting, and known biases exist. Section 5 describes them. To make them visible where they matter, every result states the mix of sources it rests on, by perspective, credibility tier and source type, and warns when one perspective supplies most of it. The result is not re-weighted.</p>
+<h3 id="licensed-channels-only">Licensed channels only</h3>
+<p>Article text is taken only from channels CIP may lawfully use: publisher feeds and pages, and public messaging channels. Where articles are found through the public GDELT news index, they are read from the publisher's own page under its terms, honouring crawl rules and keeping only the opening of each article. Archive copies and third-party crawl copies are not processed.</p>
+<h3 id="measured-before-built-re-measured-on-a-schedule">Measured before built, re-measured on a schedule</h3>
+<p>A new channel is measured for what it would add, and for licence fit, before any fetcher is built. The selection is re-measured after every paid step and on a fixed cadence, and a changed verdict is named in that week's report.</p>
+<hr />
+<h2 id="3-processing">3. Processing</h2>
+<p>Published: 2026-11-03 · Last updated: 2026-10-19</p>
+<p>This section follows a record from collection to analysis. For each stage it states what the stage guarantees. It does not describe how the stage achieves it.</p>
+<h3 id="collection">Collection</h3>
+<p>Feeds, public messaging channels, structured datasets and measured series are read incrementally from a stored position. Each news or messaging item keeps its original text, its publisher link and its publication time; structured records keep their coded fields and event date. Only public channels are read.</p>
+<h3 id="failure-handling-and-quarantine">Failure handling and quarantine</h3>
+<p>A failing source cannot silently corrupt the corpus. Transient faults are retried. A broken source is paused and surfaced. A record that fails is set aside with its reason, and can be replayed or retired; nothing leaves quarantine silently.</p>
+<h3 id="one-record-format-validated">One record format, validated</h3>
+<p>Every record reaches processing in one documented format and is validated field by field. An invalid record is set aside alone; a malformed batch is rejected whole. Collection writes only to a staging area and never to the stores.</p>
+<h3 id="same-source-repeats-removed">Same-source repeats removed</h3>
+<p>Exact and near-exact repeats from the same source are removed before any paid processing. Copies across different sources are kept, because they count as corroboration.</p>
+<h3 id="selection-applied-before-paid-work">Selection applied before paid work</h3>
+<p>Records the selection rule drops are dropped before they are processed, and for the most part before they are translated, so little excluded is paid for. Topic filters on non-English posts run on the translation. Every dropped record is counted in the run report, the same records are kept on every rerun, and records already collected are moved aside, not deleted. Paid processing runs under hard caps and an approved plan.</p>
+<h3 id="content-filters">Content filters</h3>
+<p>Records with no content, paid promotions and material about another theatre are removed. Footer boilerplate is stripped but never a reason to drop. Short first reports are kept. Selection and filtering parameters are measured and re-measured.</p>
+<h3 id="translation">Translation</h3>
+<p>All non-English text is translated to English before analysis. The original is kept beside the translation in the collected record. Every translation is checked for completeness, and a record that cannot be translated faithfully is set aside, not guessed. Text declared English but mostly written in a non-Latin script is detected and translated.</p>
+<h3 id="english-only-embeddings">English-only embeddings</h3>
+<p>Only English text is turned into search vectors. Original-language text is preserved but never embedded.</p>
+<h3 id="relevance-scoring">Relevance scoring</h3>
+<p>Off-topic items arriving on a conflict feed are removed at acquisition when they carry no conflict vocabulary and sit far from conflict reporting. Records that remain are also given a relevance score before costly processing; that score annotates and does not delete.</p>
+<h3 id="extraction">Extraction</h3>
+<p>Each record passes specialised single-purpose extraction steps in a fixed order: places, actors and their relationships, actor roles in events, and claims. A step only proposes; no extraction step writes to the store. Every proposal is an attributed, replay-safe operation recorded before anything is stored. Prompts are versioned, and every model output is validated against a strict schema.</p>
+<h3 id="geocoding">Geocoding</h3>
+<p>Places are resolved by a fixed, ordered procedure: curated overrides first, then the public GeoNames gazetteer. A name that contradicts the country the record states is rejected, except that places elsewhere in the conflict region are accepted for cross-border reporting. A place that cannot be resolved stays unresolved, a match on a near spelling is marked as such, and an event is never dropped for lack of a map position.</p>
+<h3 id="actor-identity-resolution">Actor identity resolution</h3>
+<p>Actors are matched to known actors by a fixed, ordered procedure in which curated identity knowledge outranks automatic similarity. Names that differ by a number, short acronyms, and actors of incompatible kinds are never merged on textual similarity. A refused merge leaves two actors and a flag, never a silent fusion. Matching requires strong evidence on time, place and content.</p>
+<p>When an actor is matched by similarity, the existing actor's name and type stand. The proposed values are recorded but never overwrite the identity.</p>
+<h3 id="curation">Curation</h3>
+<p>Every batch is checked for orphans, duplicates, canonical choice and structural anomalies before anything is stored. Routine cases are decided by fixed rules. Only the ambiguous residue reaches a language model, whose every input and output is kept for audit. The model cannot rewrite a record; it can let a new record through, flag it, or have it removed from the batch.</p>
+<h3 id="event-deduplication-across-sources">Event deduplication across sources</h3>
+<p>Reports of the same real-world event from different sources are merged into one event listing every reporting source when they share a source event identifier, or when they are close in time and place and share actors or wording. Reports with no map position must agree on a named place. Likely but uncertain pairs are kept as separate events and flagged, and the likelier ones go to curation review.</p>
+<h3 id="claim-and-relationship-deduplication">Claim and relationship deduplication</h3>
+<p>A relationship reported by several sources is stored once with all its supporting sources. A claim repeated by another source is recorded again with its own wording, and the earlier claim is also linked to the repeating source.</p>
+<h3 id="corroboration">Corroboration</h3>
+<p>Corroboration fields are computed from an event's live sources, never typed in, and re-derived whenever its sources change. They count distinct sources, not independent ones.</p>
+<h3 id="analysis">Analysis</h3>
+<p>Analyses run under fixed limits, and the analytical parameters of the calibrated capabilities are fitted under a pre-registered rule and published with their configuration version. Section 4 describes how this is checked, and section 6 describes how each run is recorded.</p>
+<hr />
+<h2 id="4-quality-and-review">4. Quality and review</h2>
+<p>Published: 2026-11-03 · Last updated: 2026-10-19</p>
+<h3 id="history-never-erasure">History, never erasure</h3>
+<p>Every change to a tracked fact is kept as history. A correction supersedes a value; it does not erase it. Nothing is hard-deleted, and an ingest applies fully or not at all.</p>
+<h3 id="resolution-audit-trail">Resolution audit trail</h3>
+<p>For every actor that is matched, merged or refused a merge, the system records how the decision was made, so a reviewer can reconstruct and challenge it.</p>
+<h3 id="review-of-past-identity-decisions">Review of past identity decisions</h3>
+<p>Past identity decisions are exported as reviewable packets with evidence from both sides, judged under one fixed rubric, and corrected in one pass that previews first, keeps previous values as history and changes nothing when run twice. A combining step can limit a review round to changes on which two independent reviews agree.</p>
+<h3 id="an-independent-recall-reference">An independent recall reference</h3>
+<p>Coverage is measured against an independent, published dataset of violent conflict events, the UCDP Georeferenced Event Dataset, which the scored sources do not feed. The result is reported with its limits.</p>
+<h3 id="labelled-reference-sets">Labelled reference sets</h3>
+<p>Matching and extraction are checked against labelled reference sets, and where the labels cannot support a setting, the documentation says so.</p>
+<h3 id="a-regression-gate-before-a-stack-change">A regression gate before a stack change</h3>
+<p>A change to the processing stack is accepted only if it passes tests set in advance: it still flags the published escalation days, reproduces the leading actors, keeps the report count within tolerance, and refuses almost nothing. A later change to a test is recorded as a decision.</p>
+<h3 id="calibrated-thresholds">Calibrated thresholds</h3>
+<p>The analytical thresholds of the calibrated capabilities are fitted, not hand-set. Each fit's decision rule is written down before the data is examined, every sweep is journaled, and each published configuration is a versioned, checksummed file recording what it was fitted on; a change is published as a new version. Deployment limits and the source-mix skew threshold are set by decision, not fitted.</p>
+<h3 id="language-models">Language models</h3>
+<p>Each processing role is bound to a model class by configuration, and reviewer roles never run on the lightest class. Where a language model is used, it is of a lighter or a stronger tier.</p>
+<h3 id="guardrails">Guardrails</h3>
+<p>Nothing is published automatically: a calibrated result enters a review queue as a proposal for an analyst. Approval of a result is an analyst's working marker and does not check the number of sources behind it. Calibrated analyses refuse to run without a loaded calibration. An exported report lists the analysis runs behind it, and each run records its parameters, configuration version, data date and method versions.</p>
+<h3 id="credentials">Credentials</h3>
+<p>Credentials sit in one protected store and never appear in configuration or documents.</p>
+<hr />
+<h2 id="5-known-limitations">5. Known limitations</h2>
+<p>Published: 2026-11-03 · Last updated: 2026-10-19</p>
+<p>CIP states its limitations so that results can be read with them in mind. Measured figures will be added after re-measurement on the repaired corpus. Until then this document gives none.</p>
+<h3 id="the-source-mix-is-lopsided">The source mix is lopsided</h3>
+<p>The corpus is not a balanced sample of all reporting. Public messaging channels and one perspective supply most event reports, and independent outlets very few. Each result's source-mix statement says how much this applies to it.</p>
+<h3 id="uneven-time-coverage">Uneven time coverage</h3>
+<p>Coverage is uneven over time. Some periods are thinly covered, and feeds that keep no history cannot be backfilled.</p>
+<h3 id="low-recall-violent-events-only">Low recall, violent events only</h3>
+<p>Measured against the independent reference, recall is low in absolute terms, and the reference covers violent events only.</p>
+<h3 id="matching-bounds-corroboration">Matching bounds corroboration</h3>
+<p>Automatic matching of reports across sources is imperfect, so corroboration counts are bounded estimates, not exact counts.</p>
+<h3 id="residual-actor-identity-error">Residual actor-identity error</h3>
+<p>Actor identity resolution is imperfect. Some actors carry a wrong name or type, some distinct entities remain merged, and some outlets appear as actors. These classes are measured and corrected in reviewed passes, with history kept. Variants of a name that share no spelling can remain separate actors until curated.</p>
+<h3 id="map-coverage">Map coverage</h3>
+<p>Only part of the events can be placed on a map. The hotspot analysis states the share that can be placed, and the event map states how many events it had to leave off.</p>
+<h3 id="thin-evidence-for-some-capabilities">Thin evidence for some capabilities</h3>
+<p>Source reliability rests on thin evidence and says so. Narrative shift on a short window reports an expected share of false detections beside each count. Relationship edges carry no dates, so network results are not time-sliced.</p>
+<h3 id="language">Language</h3>
+<p>All non-English text is translated before analysis, with the original kept beside the translation in the collected record. A record that cannot be translated faithfully is set aside, so such records are absent from the analysed corpus.</p>
+<hr />
+<h2 id="6-versioning-and-corrections">6. Versioning and corrections</h2>
+<p>Published: 2026-11-03 · Last updated: 2026-10-19</p>
+<h3 id="reproducible-runs">Reproducible runs</h3>
+<p>Every analysis run records its parameters, the configuration version, the method version and the date of the data it ran on. Methods are deterministic, so the same inputs on the same data give the same result.</p>
+<h3 id="frozen-copies-are-labelled">Frozen copies are labelled</h3>
+<p>A result computed from a frozen copy of the data carries a warning that says so and states the date of that data.</p>
+<h3 id="the-graph-view-is-derived">The graph view is derived</h3>
+<p>The graph view is a rebuildable copy of the authoritative store. If the graph is unavailable, graph-based analyses return an error while record-based analyses continue. The dashboard does not yet report when the copy is behind.</p>
+<h3 id="corrections-log">Corrections log</h3>
+<p>Corrections are recorded in a dated log.</p>
+<div class="table-scroll"><table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Correction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>October 2026</td>
+<td>An internal audit found four classes of defect: a state fused with a media label by a near-name match, no cross-source event corroboration, a corpus dominated by one platform and one perspective, and results that did not disclose this. Each was repaired by a documented, tested change.</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="7-faq">7. FAQ</h2>
+<p>Published: 2026-11-03 · Last updated: 2026-10-19</p>
+<p><strong>Is CIP's data complete?</strong>
+No. The corpus is not a balanced sample of all reporting. Coverage is uneven over time. Measured against an independent reference, recall is low in absolute terms, and that reference covers violent events only. Only part of the events can be placed on a map. Section 5 lists these limits.</p>
+<p><strong>Why not use every source available?</strong>
+The corpus is chosen for the accuracy it yields per record processed, not for volume. More sources do not by themselves mean more reliable results, so a source, or a share of one, is processed only where it measurably adds.</p>
+<p><strong>Does CIP decide whether claims are true?</strong>
+No. A claim is an assertion attributed to whoever made it. CIP records what the text says about a claim's status. Verification status is proposed automatically from what the text says; analyst confirmation is not yet part of the system.</p>
+<p><strong>How do I know what mix of sources a result rests on?</strong>
+Every result states the mix of sources it rests on, by perspective, credibility tier and source type, and warns when one perspective supplies most of it. The result is not re-weighted.</p>
+<p><strong>Does a high source count mean an event is independently confirmed?</strong>
+Not by itself. Corroboration fields count distinct sources, not independent ones, and automatic matching of reports across sources is imperfect, so the counts are bounded estimates, not exact counts.</p>
+<p><strong>Which language model does CIP use?</strong>
+CIP uses a language model, of a lighter or a stronger tier depending on the role. Reviewer roles never run on the lightest class. In curation, a language model sees only the ambiguous residue, every input and output is kept for audit, and it cannot rewrite a record; it can let a new record through, flag it, or have it removed from the batch. Prompts are versioned and every model output is validated against a strict schema.</p>
+<p><strong>How are errors corrected?</strong>
+A correction supersedes a value; it does not erase it, so every change is kept as history. Past identity decisions are exported for review and corrected in a pass that previews first. Corrections are recorded in a dated log, which section 6 carries.</p>
+<p><strong>Can two different actors be wrongly merged?</strong>
+It can happen, and CIP says so. Names that differ by a number, short acronyms, and actors of incompatible kinds are never merged on textual similarity, and a refused merge leaves two actors and a flag. Even so, actor identity resolution is imperfect and some distinct entities remain merged. These classes are measured and corrected in reviewed passes.</p>
+<p><strong>Can I reproduce a result?</strong>
+Every analysis run records its parameters, the configuration version, the method version and the date of the data it ran on. Methods are deterministic, so the same inputs on the same data give the same result. An exported report lists the analysis runs behind it.</p>
+<p><strong>Where does the article text come from?</strong>
+Article text is taken only from channels CIP may lawfully use: publisher feeds and pages, and public messaging channels. Where articles are found through the public GDELT news index, they are read from the publisher's own page under its terms.</p>
+<p><strong>Why does a result say it uses a frozen copy of the data?</strong>
+A result computed from a frozen copy of the data carries a warning that says so and states the date of that data.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="cta">See CIP run on a live question.</p>
+    <a class="mail" href="mailto:founder@mergeseat.com?subject=CIP%20demonstration">founder@mergeseat.com</a>
+    <div class="foot-row">
+      <a class="by" href="https://mergeseat.com"><img src="assets/mergeseat-mark-128.png" alt="" width="22" height="22">CIP is built by MergeSeat · AI systems engineering · Netherlands · KvK 42166850</a>
+      <nav aria-label="Footer">
+        <a href="methods.html">Methods</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="assurance.html">Assurance</a>
+        <a href="figures/full-record/figures.json">Figure manifest</a>
+        <a href="https://conflictgauge.com">Conflict Gauge</a>
+        <a href="https://mergeseat.com">mergeseat.com</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

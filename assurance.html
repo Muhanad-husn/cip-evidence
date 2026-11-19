@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assurance: CIP</title>
+<meta name="description" content="How CIP results are checked: confidence levels, reproducibility, tests against chance, a blind check and the source audit.">
+<link rel="canonical" href="https://muhanad-husn.github.io/cip-evidence/assurance.html">
+<meta name="theme-color" content="#0a0a13">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CIP by MergeSeat">
+<meta property="og:title" content="Assurance: CIP">
+<meta property="og:description" content="How CIP results are checked: confidence levels, reproducibility, tests against chance, a blind check and the source audit.">
+<meta property="og:url" content="https://muhanad-husn.github.io/cip-evidence/assurance.html">
+<meta property="og:image" content="https://muhanad-husn.github.io/cip-evidence/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/cip-favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <div class="lockup">
+      <a href="https://mergeseat.com" title="MergeSeat"><img src="assets/mergeseat-mark-128.png" alt="" width="30" height="30">MergeSeat</a>
+      <span class="sep">/</span>
+      <a href="index.html" title="CIP, the Conflict Intelligence Platform"><img src="assets/cip-mark-dark.svg" alt="" width="30" height="30">CIP</a>
+    </div>
+    <nav class="nav" aria-label="Site">
+      <a href="index.html">Platform</a>
+      <a href="methods.html">Methods</a>
+      <a href="methodology.html">Methodology</a>
+      <a href="assurance.html" aria-current="page">Assurance</a>
+      <a href="deployment.html">Deployment</a>
+      <a href="company.html">For investors</a>
+      <a href="period-brief.html">The Period Brief</a>
+      <a class="btn-contact" href="mailto:founder@mergeseat.com?subject=CIP">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero sub">
+    <div class="wrap">
+      <p class="pill">Assurance</p>
+      <h1>How the results are checked.</h1>
+      <p class="lede">A measurement of a conflict is only useful when its reader can see how far to trust it. CIP states a confidence level on every finding, keeps a data file behind every figure, audits its own sources and declines to answer when the record does not support an answer.</p>
+    </div>
+  </section>
+  <section id="trace" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Traceability</p>
+      <h2>Every result leads back to the document behind it.</h2>
+      <p>Each event, claim and relationship in the record keeps the source report it came from, and each figure on this site is published with the table behind it and a file that states the method, the window, the date of the data and the command that reproduces it. The <a href="figures/full-record/figures.json">figure manifest</a> lists them all.</p>
+      <p>Nothing in the record is overwritten. A corrected value keeps its history, so an earlier figure can be explained after the record has moved on. The <a href="methodology.html#6-versioning-and-corrections">methodology</a> describes how corrections are logged.</p>
+    </div>
+  </section>
+  <section id="confidence" class="section alt">
+    <div class="wrap">
+      <p class="eyebrow">Confidence levels</p>
+      <h2>A confidence level on every finding.</h2>
+      <p>Each finding in an edition carries a level that reflects how much data stands behind it and how it performed against its own checks. Across the 42 editions built on the record, 420 findings were published. 236 carry High confidence (56%) and 184 carry Moderate (44%).</p>
+      <figure>
+        <a href="figures/full-record/confidence_levels/figure.png" title="Open the figure at full size"><img src="figures/full-record/confidence_levels/figure.png" alt="Confidence levels across all editions: 236 High and 184 Moderate." loading="lazy"></a>
+        <figcaption>420 findings across 42 editions, by confidence level.</figcaption>
+        <ul class="files"><li><a href="figures/full-record/confidence_levels/shares.csv">Shares (CSV)</a></li><li><a href="figures/full-record/confidence_levels/data.csv">Every finding (CSV)</a></li><li><a href="figures/full-record/confidence_levels/provenance.json">How it was produced</a></li></ul>
+      </figure>
+    </div>
+  </section>
+  <section id="reproducibility" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Reproducibility</p>
+      <h2>The same question on the same data returns the same answer.</h2>
+      <p>The methods are deterministic. A result is fixed by the data, the configuration version and the window, and all three are written into the file beside each figure. The figures on this site were produced under configuration 14 on data as of 15 November 2026.</p>
+      <p>Where a run has to be split, the split is published. Escalation detection over the full record ran as three overlapping windows, each repeating 35 days of the one before it so that every day is judged against its full baseline. The <a href="figures/full-record/escalation_days/calls.csv">run windows (CSV)</a> list them.</p>
+    </div>
+  </section>
+  <section id="checks" class="section alt">
+    <div class="wrap">
+      <p class="eyebrow">Checks</p>
+      <h2>Tested against chance, checked blind, declined when unsupported.</h2>
+      <div class="grid">
+        <a class="card" href="figures/full-record/standing_links/tests.csv"><p class="tag">Against chance</p><h3>9,195 tests, 8 standing links</h3><p>With 613 pairs of series under test, 776 results pass a single test where about 460 would pass by chance alone. CIP therefore reports a link as standing only after it has held at four consecutive weekly cutoffs. 8 do.</p><p class="more">Test counts (CSV)</p></a>
+        <a class="card" href="period-brief.html"><p class="tag">Blind check</p><h3>20 of 20 claims verified</h3><p>Before The Period Brief was published in September 2026, 20 of its 42 claims were drawn at random and checked against the run output under a rule fixed in advance, where one error fails the brief. A first draw found one error in 20. It was corrected and a fresh draw passed 20 of 20.</p><p class="more">The Period Brief</p></a>
+        <a class="card" href="methods.html#coverage"><p class="tag">Declined answers</p><h3>3 entries declined, with reasons</h3><p>In the latest edition the platform declined 3 of 141 entries because the record does not hold what the method needs, and said so in the edition.</p><p class="more">The declined entries</p></a>
+      </div>
+      <p style="margin-top:28px">The software itself is held by more than 12,000 automated tests.</p>
+    </div>
+  </section>
+  <section id="sources" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Source audit</p>
+      <h2>The sources are measured, not assumed.</h2>
+      <p>Each source enters the record with an assigned reliability tier. The source reliability audit then compares that tier with the measured behaviour of the source's claims. On the full record it audited 46 sources, found 13 whose behaviour departs from their tier and moved 7 to a different tier.</p>
+      <p>The audit rests on the part of the record that arrives as explicit claims, which is a small share of all assertions, and the result carries that limit. The <a href="methodology.html#5-known-limitations">known limitations</a> are published in full.</p>
+      <figure>
+        <a href="figures/full-record/source_reliability/figure.png" title="Open the figure at full size"><img src="figures/full-record/source_reliability/figure.png" alt="Source reliability over the full record: the largest score changes." loading="lazy"></a>
+        <figcaption>46 sources audited on the full record, 13 outliers, 7 tier changes.</figcaption>
+        <ul class="files"><li><a href="figures/full-record/source_reliability/data.csv">Every source (CSV)</a></li><li><a href="figures/full-record/source_reliability/provenance.json">How it was produced</a></li></ul>
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p class="cta">See CIP run on a live question.</p>
+    <a class="mail" href="mailto:founder@mergeseat.com?subject=CIP%20demonstration">founder@mergeseat.com</a>
+    <div class="foot-row">
+      <a class="by" href="https://mergeseat.com"><img src="assets/mergeseat-mark-128.png" alt="" width="22" height="22">CIP is built by MergeSeat · AI systems engineering · Netherlands · KvK 42166850</a>
+      <nav aria-label="Footer">
+        <a href="methods.html">Methods</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="assurance.html">Assurance</a>
+        <a href="figures/full-record/figures.json">Figure manifest</a>
+        <a href="https://conflictgauge.com">Conflict Gauge</a>
+        <a href="https://mergeseat.com">mergeseat.com</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
